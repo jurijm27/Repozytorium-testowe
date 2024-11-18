@@ -12,7 +12,10 @@ public class PlayerController : MonoBehaviour
     public float speed;
 
     public Rigidbody Rigidbody;
-    public Transform StartPoint; 
+    
+    public Transform StartPoint;
+
+    public int zebranePunkty; 
 
     public object S { get; private set; }
 
